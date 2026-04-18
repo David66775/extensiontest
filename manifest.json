@@ -6,5 +6,10 @@
   "action": {
     "default_popup": "/extensiontest/world.html",
     "default_icon": "/extensiontest/assets/icon.png"
-  }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module" 
+  },
+  "permissions": ["alarms", "storage"]
 }
